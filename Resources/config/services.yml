@@ -1,0 +1,23 @@
+services:
+#    fp_time.example:
+#        class: FP\TimeBundle\Example
+#        arguments: ["@service_id", "plain_value", %parameter%]
+
+
+# Form
+    fp.time.form.type.human_time:
+        class: FP\TimeBundle\Form\Type\HumanTimeType
+        #arguments:
+        #    - "%genders%"
+        tags:
+            - { name: form.type, alias: human_time }
+
+# Twig
+    fp.time.twig.extension:
+        class: FP\TimeBundle\Twig\TimeExtension
+        arguments:
+            - "@translator"
+        tags:
+            - { name: twig.extension }
+
+

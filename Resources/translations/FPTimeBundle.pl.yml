@@ -1,0 +1,26 @@
+
+
+human_time_amount: Wartość
+human_time_size: Jednostka
+
+
+size.choice_seconds: Sekund
+size.choice_minutes: Minut
+size.choice_hours: Godzin
+size.choice_days: Dni
+size.choice_weeks: Tygodni
+size.choice_months: Miesięcy
+size.choice_years: Lat
+
+
+size.second: sekunde|%count% sekundy|%count% sekund
+size.minute: minutę|%count% minuty|%count% minut
+size.hour: godzinę|%count% godziny|%count% godzin
+size.day: dzień|%count% dni|%count% dni
+size.week: tydzień|%count% tygodnie|%count% tygodni
+size.month: miesiąc|%count% miesiące|%count% miesięcy
+size.year: rok|%count% lata|%count% lat
+
+
+
+

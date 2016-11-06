@@ -1,0 +1,3 @@
+#fp_time_homepage:
+#    path:     /
+#    defaults: { _controller: FPTimeBundle:Default:index }
