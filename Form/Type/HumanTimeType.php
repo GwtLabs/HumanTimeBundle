@@ -23,7 +23,7 @@ class HumanTimeType extends AbstractType {
                     'translation_domain' => $options['translation_domain'],
                     'label' => 'human_time_size',
                     'choices' => array(
-                        'secounds' => 'size.choice_secounds',
+                        'seconds' => 'size.choice_seconds',
                         'minutes' => 'size.choice_minutes',
                         'hours' => 'size.choice_hours',
                         'days' => 'size.choice_days',
@@ -69,7 +69,7 @@ class HumanTimeType extends AbstractType {
 
                     break;
 
-                case 'secounds':
+                case 'seconds':
                 default:
                     $amount = $submitted['amount'];
                     break;
