@@ -1,10 +1,10 @@
 {
-    "name": "gwtlabs/time-bundle",
+    "name": "gwtlabs/human-time-bundle",
     "type": "symfony-bundle",
     "license": "MIT",
-    "description": "Time bundle for Symfony2",
-    "keywords": ["time", "symfony"],
-    "homepage": "https://github.com/GwtLabs/TimeBundle",
+    "description": "Human readable time bundle for Symfony2",
+    "keywords": ["human","time","human time","symfony"],
+    "homepage": "https://github.com/GwtLabs/HumanTimeBundle",
     "authors": [
         {
             "name": "!Dark!",
@@ -16,7 +16,7 @@
         "symfony/framework-bundle": "~2.0|~3.0"
     },
     "autoload": {
-        "psr-0": { "GWTLabs\\TimeBundle": "" }
+        "psr-0": { "GWTLabs\\HumanTimeBundle": "" }
     },
-    "target-dir": "GWTLabs/TimeBundle"
+    "target-dir": "GWTLabs/HumanTimeBundle"
 }
